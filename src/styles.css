@@ -1,0 +1,63 @@
+div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.fondo {
+	position: absolute;
+	margin-top: 80px;
+	width: 95%;
+	z-index: 1
+}
+
+#hecho {
+	display: flex;
+	justify-content: center;
+  position: fixed;
+	margin-top: 100px;
+	width: 80%;
+	font-size: 5vw;
+	z-index: 2;
+}
+
+.animales {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 90%;
+	margin-top: 240px;
+	z-index: 2
+}
+
+.animal {
+	width: 33.3%;
+}
+
+@media only screen and (max-width: 670px) {
+	.animales {
+		margin-top: 180px;
+	}
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+	.animales {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.animales {
+		margin-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.animales {
+		margin-top: 120px;
+	}
+}
